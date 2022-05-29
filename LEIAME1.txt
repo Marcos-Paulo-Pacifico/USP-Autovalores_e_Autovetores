@@ -1,0 +1,24 @@
+O programa é iniciado com a mensagem "inicio do programa", logo em seguida, será perguntado se deseja implementar deslocamento 
+nas operações com matrizes. as respostas aceitas para esta pergunta são "sim" ou "nao", sem acento, sem espaço, sem maíscula.
+Feito isso, a próxima pergunta é relativa ao teste que deseja aplicar. Como são três itens distintos, a resposta esperada é 
+"a" "b" ou "c". 
+
+Caso escolha o teste a:
+	É possível selecionar qualquer dimensão da matriz definida com alfa = 2 e beta = gama = -1, espera-se um número inteiro
+	como resposta a essa pergunta.
+	Em seguida, é possível pedir a impressão dos "autovalores", "autovetores" ou "ambos" para a matriz de ordem n selecionada.
+	Também é mostrado o número de iterações contabilizadas.
+Caso escolha o teste b:
+	Dentro do teste b, ainda existem quatro possibilidades de seleção: "primeiro", "segundo", "terceiro" e "customizavel"
+	, sem acento, sem maíscula. Cada um destes itens se refere a uma parcela do enunciado. O primeiro teste é feito com
+	X0 = (-2.0,-3.0,-1.0,-3.0,-1.0) , o segundo com X0 = (1.0,10.0,-4.0,3.0,-2.0),  o terceiro com o valor do maior modo
+	natural e a opção customizável espera que o usuário delimite 5 valores quaisquer para as posições iniciais das massas.
+	Em seguida os gráficos serão mostrados na tela.
+Caso escolha o teste c:
+	Dentro do teste c, existem quatro possibilidades de seleção: "primeiro", "segundo", "terceiro" e "customizavel"
+	,sem acento, sem maíscula. Cada um destes itens se refere a uma parcela do enunciado. O primeiro teste é feito com
+	X0 = (-2.0,-3.0,-1.0,-3.0,-1.0,-2.0,-3.0,-1.0,-3.0,-1.0) , o segundo com X0 = (1.0,10.0,-4.0,3.0,-2.0,1.0,10.0,-4.0,3.0,-2.0), 
+	o terceiro com o valor do maior modo natural e a opção customizável espera que o usuário delimite 10 valores 
+	quaisquer para as posições iniciais das massas. Em seguida os gráficos serão mostrados na tela. 
+
+Ao final será printado "fim do programa"
